@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "strict": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "baseUrl": "src",
+    "lib": [
+      "DOM",
+      "ES6"
+    ],
+    "paths": {
+      "@pages": ["pages"],
+      "@pages/*": ["pages/*"],
+      "@containers": ["containers"],
+      "@containers/*": ["containers/*"],
+      "@constants": ["constants"],
+      "@constants/*": ["constants/*"],
+      "@interfaces": ["interfaces"],
+      "@interfaces/*": ["interfaces/*"],
+      "@stores": ["stores"],
+      "@stores/*": ["stores/*"],
+      "@services": ["services"],
+      "@services/*": ["services/*"],
+      "@assets": ["assets"],
+      "@assets/*": ["assets/*"],
+      "@hooks": ["hooks"],
+      "@hooks/*": ["hooks/*"]
+    }
+  }
+}

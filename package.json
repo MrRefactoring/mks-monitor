@@ -1,0 +1,12 @@
+{
+  "name": "mks-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "author": "Vladislav Tupikin <mrrefactoring@yandex.ru>",
+  "repository": "https://github.com/MrRefactoring/mks-monitor.git",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
