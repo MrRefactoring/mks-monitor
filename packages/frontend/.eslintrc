@@ -25,6 +25,21 @@
     "no-underscore-dangle": "off",
     "lines-between-class-members": "off",
     "import/extensions": "off",
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": true,
+        "ignoreDeclarationSort": false,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": [
+          "all",
+          "multiple",
+          "single",
+          "none"
+        ],
+        "allowSeparatedGroups": false
+      }
+    ],
     "padding-line-between-statements": [
       "error",
       {

@@ -27,7 +27,7 @@ const configuration: Configuration = {
       '@constants': path.resolve(__dirname, 'src/constants'),
       '@pages': path.resolve(__dirname, 'src/pages'),
       '@interfaces': path.resolve(__dirname, 'src/interfaces'),
-      '@stores': path.resolve(__dirname, 'src/stores'),
+      '@store': path.resolve(__dirname, 'src/store'),
       '@services': path.resolve(__dirname, 'src/services'),
       '@hooks': path.resolve(__dirname, 'src/hooks'),
     },
