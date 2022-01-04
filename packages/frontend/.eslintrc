@@ -25,6 +25,7 @@
     "no-underscore-dangle": "off",
     "lines-between-class-members": "off",
     "import/extensions": "off",
+    "eol-last": "error",
     "sort-imports": [
       "error",
       {
