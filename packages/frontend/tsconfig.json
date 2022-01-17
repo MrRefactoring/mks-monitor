@@ -5,6 +5,7 @@
     "strict": true,
     "sourceMap": true,
     "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
     "jsx": "react",
     "baseUrl": "src",
     "lib": [

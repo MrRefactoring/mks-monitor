@@ -1,3 +1,5 @@
-export interface Store {
+import { JobsStore } from '@store';
 
+export interface Store {
+  jobs: JobsStore;
 }
