@@ -1,12 +1,13 @@
-import * as path from 'path';
 import * as HtmlWebpackPlugin from 'html-webpack-plugin';
+import * as path from 'path';
 // @ts-ignore
 import * as rhTransformer from 'react-hot-ts/lib/transformer';
 import { Configuration } from 'webpack';
+import { Configuration as DevConfiguration } from 'webpack-dev-server';
 
 const mode = process.env.NODE_ENV === 'development' ? 'development' : 'production';
 
-const configuration: Configuration = {
+const configuration: Configuration & DevConfiguration = {
   mode,
   devServer: {
     historyApiFallback: true,
