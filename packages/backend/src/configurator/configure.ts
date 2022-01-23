@@ -1,8 +1,9 @@
 import { Express } from 'express';
-import { mongoConfigurator } from './configurators';
+import { routesConfigurator } from './configurators/routesConfigurator';
+import { appConfigurator, mongoConfigurator } from './configurators';
 
 export async function configure(app: Express) {
-  app.disable('x-power-app');
-
+  await appConfigurator(app);
+  await routesConfigurator(app);
   await mongoConfigurator();
 }

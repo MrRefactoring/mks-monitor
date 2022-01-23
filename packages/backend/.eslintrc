@@ -35,8 +35,8 @@
         "ignoreMemberSort": false,
         "memberSyntaxSortOrder": [
           "all",
-          "multiple",
           "single",
+          "multiple",
           "none"
         ],
         "allowSeparatedGroups": false
